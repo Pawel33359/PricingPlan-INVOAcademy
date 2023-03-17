@@ -1,0 +1,11 @@
+/// Homepage Styles File
+/// Here we import all the Styles files we need for our Homepage.
+
+@import "./pricing-header.scss";
+@import "./pricing-plan.scss";
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 120px 24px 120px;
+}

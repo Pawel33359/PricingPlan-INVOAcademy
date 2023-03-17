@@ -1,0 +1,5 @@
+@mixin set-flex($gap: 0, $direction: row) {
+  display: flex;
+  gap: $gap;
+  flex-direction: $direction;
+}

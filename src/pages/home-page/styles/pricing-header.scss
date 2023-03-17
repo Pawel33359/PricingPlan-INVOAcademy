@@ -1,0 +1,22 @@
+@import "./set-flex.scss";
+
+.pricing-header {
+  max-width: 244px;
+  text-align: center;
+  margin: 0 auto 47px auto;
+
+  @include set-flex(1.125rem, column);
+
+  & &__title {
+    max-height: 3rem;
+    margin: 0;
+    font-size: var(--font-size-large);
+    font-weight: var(--font-weight-semibold);
+    letter-spacing: var(--letter-spacing-big);
+  }
+  & &__description {
+    text-align: center;
+    color: var(--color-light-text);
+    line-height: 140%;
+  }
+}
